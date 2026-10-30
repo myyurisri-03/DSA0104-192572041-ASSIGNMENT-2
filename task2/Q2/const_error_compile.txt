@@ -1,0 +1,4 @@
+const_error.cpp: In function 'int main()':
+const_error.cpp:2:45: error: assignment of read-only location 'highestConst(((const int*)((int*)(& a))))'
+    2 | int main() { int a[] = {1}; highestConst(a) = 5; }
+      |                             ~~~~~~~~~~~~~~~~^~~

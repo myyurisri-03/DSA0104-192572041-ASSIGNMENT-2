@@ -1,0 +1,5 @@
+after three moderations of +2: 97 (expected 97)
+index after growth still valid: v[idx] = 97
+pointer kept before growth is stale: true
+n = 5000000, 20 searches: reference 33.3673 ms, index 27.2605 ms, pointer 27.1973 ms (checksum 60000120)
+bytes returned: reference/pointer 8, index 8

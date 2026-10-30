@@ -1,0 +1,4 @@
+capacity before = 5, address of element 0 = 0x55588ccd42b0
+capacity after  = 10, address of element 0 = 0x55588ccd52e0
+buffer moved: true
+top still refers to the OLD buffer: true

@@ -1,0 +1,8 @@
+=================================================================
+==227==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000048 at pc 0x55ecc36a07a2 bp 0x7ffe94abca50 sp 0x7ffe94abca40
+READ of size 4 at 0x503000000048 thread T0
+    #0 0x55ecc36a07a1 in main /home/claude/repo2/Q2/vector_use_after_free.cpp:10
+    #1 0x7ff9f1a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 8e9fd827446c24067541ac5390e6f527fb5947bb)
+    #2 0x7ff9f1a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 8e9fd827446c24067541ac5390e6f527fb5947bb)
+    #3 0x55ecc36a0384 in _start (/tmp/asan+0x2384) (BuildId: 5f90304f44316aad85133ea1930faff5e46e6bef)
+

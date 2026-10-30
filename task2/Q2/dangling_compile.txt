@@ -1,0 +1,7 @@
+dangling.cpp: In function 'int& broken()':
+dangling.cpp:6:12: warning: reference to local variable 'local' returned [-Wreturn-local-addr]
+    6 |     return local;            // 'local' is destroyed when broken() returns
+      |            ^~~~~
+dangling.cpp:5:9: note: declared here
+    5 |     int local = 42;
+      |         ^~~~~

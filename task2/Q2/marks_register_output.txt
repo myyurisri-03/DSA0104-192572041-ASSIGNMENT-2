@@ -1,0 +1,7 @@
+original      : 56 78 91 64 88
+after += 2    : 56 78 93 64 88
+after = 95    : 56 78 95 64 88
+copy changed  : 56 78 95 64 88
+copy = 100
+through r     : 56 78 90 64 88
+const reference reads 90
