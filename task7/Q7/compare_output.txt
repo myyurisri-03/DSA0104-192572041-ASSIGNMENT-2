@@ -1,0 +1,24 @@
+Same mini-statement for original and redesign (boundary counts 0,1,K-1,K,K+1,...)
+  K = 10   : true
+  K = 50   : true
+  K = 500  : true
+
+Output of the redesign after 12 transactions (K = 10):
+Account 1001 - last 10 transactions (oldest first)
+   1. Withdrawal     300
+   2. Deposit        400
+   3. Deposit        500
+   4. Withdrawal     600
+   5. Deposit        700
+   6. Deposit        800
+   7. Withdrawal     900
+   8. Deposit       1000
+   9. Deposit       1100
+  10. Withdrawal    1200
+  Balance: 101800
+
+     K  shift ns/add  circ ns/add    speed-up  bytes shift  bytes circ
+    10           7.6           4.0        1.9x         184         184
+    50          12.8           4.2        3.1x         824         824
+   500          76.8           4.1       18.9x        8024        8024
+  2000       10459.7           4.1     2560.4x       32024       32024
