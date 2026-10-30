@@ -1,0 +1,7 @@
+10000000 calls, times in ms
+friend  inline     : 16.1231
+friend  not inline : 18.8659
+member  inline     : 16.2398
+member  not inline : 18.1719
+getters inline     : 16.6611
+getters not inline : 62.7898

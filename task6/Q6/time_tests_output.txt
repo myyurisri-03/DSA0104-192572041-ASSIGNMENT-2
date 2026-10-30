@@ -1,0 +1,8 @@
+Case                              diff exp/act    earlier(a,b) e/a  Result
+9:45 -> 13:10 (given)             205/205         true/true         PASS
+same time twice 10:30             0/0             false/false       PASS
+before / after noon 11:50-12:20   30/30           true/true         PASS
+exactly noon vs 11:59             1/1             false/false       PASS
+midnight vs 23:59                 1439/1439       true/true         PASS
+order reversed 13:10 vs 9:45      205/205         false/false       PASS
+6 / 6 passed
