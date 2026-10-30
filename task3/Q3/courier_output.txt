@@ -1,0 +1,12 @@
+charge(2)
+  -> charge(int grams)              10
+charge(2.0f)
+  -> charge(double kg, express, insured) 10000
+charge(2.5)
+  -> charge(double kg, express, insured) 12500
+charge(2.5, true)
+  -> charge(double kg, express, insured) 16500
+charge(2.5, true, true)
+  -> charge(double kg, express, insured) 16750
+charge(Parcel{2500, true, false})
+  -> charge(const Parcel&)          16500

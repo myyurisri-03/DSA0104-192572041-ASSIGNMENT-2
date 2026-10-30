@@ -1,0 +1,10 @@
+long_ambiguity.cpp: In function 'int main()':
+long_ambiguity.cpp:4:44: error: call of overloaded 'charge(long int)' is ambiguous
+    4 | int main() { return static_cast<int>(charge(1500L)); }
+      |                                      ~~~~~~^~~~~~~
+long_ambiguity.cpp:2:11: note: candidate: 'long long int charge(int)'
+    2 | long long charge(int grams)   { return grams; }
+      |           ^~~~~~
+long_ambiguity.cpp:3:11: note: candidate: 'long long int charge(double)'
+    3 | long long charge(double kg)   { return static_cast<long long>(kg); }
+      |           ^~~~~~
