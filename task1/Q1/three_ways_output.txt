@@ -1,0 +1,14 @@
+  inside byValue the local fee is 40500
+stored fee after byValue     : 45000
+stored fee after byReference : 40500
+stored fee after byPointer   : 40500
+
+Several concessions (merit 10, sports 15, single parent 25) on 45000,
+applied by returned value in every possible order:
+  10%, 15%, 25%  -> 25819
+  10%, 25%, 15%  -> 25819
+  15%, 10%, 25%  -> 25819
+  15%, 25%, 10%  -> 25820
+  25%, 10%, 15%  -> 25819
+  25%, 15%, 10%  -> 25820
+Asha pays 45000
