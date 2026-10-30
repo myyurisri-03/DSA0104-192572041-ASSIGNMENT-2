@@ -1,0 +1,10 @@
+call 1
+  Asha: Seat 1
+  Bala: Seat 2
+  issued inside function: 2
+after call 1 (tickets destroyed) issued = 2
+call 2
+  Chitra: Seat 3
+  Dev: Waiting
+  issued inside function: 3
+after call 2 issued = 3

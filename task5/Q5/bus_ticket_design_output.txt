@@ -1,0 +1,9 @@
+Before any ticket: issued = 0
+  A: Seat 1
+  B: Seat 2
+  C: Seat 3
+  D: Waiting list #1
+  E: Waiting list #2
+  F: Waiting list #3
+Issued: 3, waiting: 3
+  unnamed: Waiting list #4

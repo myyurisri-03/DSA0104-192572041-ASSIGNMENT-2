@@ -1,0 +1,10 @@
+Bus 1:
+  Asha: Seat 1
+  Bala: Seat 2
+  Chitra: Seat 3
+  Dev: Waiting
+Bus 2:
+  Esha: Seat 1
+  Farid: Seat 2
+  Gita: Waiting
+Issued bus 1 = 3, bus 2 = 2
