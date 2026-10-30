@@ -1,0 +1,4 @@
+K = 10: shifting 10.7365 ns/add, circular 3.98864 ns/add, deque 3.49005 ns/add, array bytes 160
+K = 50: shifting 13.8555 ns/add, circular 4.12158 ns/add, deque 3.34151 ns/add, array bytes 800
+K = 500: shifting 88.2675 ns/add, circular 4.4158 ns/add, deque 2.9304 ns/add, array bytes 8000
+K = 2000: shifting 10393.2 ns/add, circular 4.38082 ns/add, deque 2.86438 ns/add, array bytes 32000

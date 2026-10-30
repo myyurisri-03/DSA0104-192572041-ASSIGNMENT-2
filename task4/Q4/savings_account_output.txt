@@ -1,0 +1,13 @@
+Account 1001 - last 10 transactions (oldest first)
+   1. Withdrawal     300
+   2. Deposit        400
+   3. Deposit        500
+   4. Withdrawal     600
+   5. Deposit        700
+   6. Deposit        800
+   7. Withdrawal     900
+   8. Deposit       1000
+   9. Deposit       1100
+  10. Withdrawal    1200
+  Balance: 101800
+withdraw too much accepted? false
